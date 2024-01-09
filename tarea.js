@@ -134,11 +134,34 @@ function celsiusAFarenheit(c){
 }
 
 //  * calcular el valor del voltaje dadas la resistencia y la corriente
+function voltajeCalculo(c, r){
+    console.log("La formula para calcular el voltaje es corriente c por resistencia r: " + (c * r))
+}
 //  * calcular el volumen de una esfera
-//  * 
+function volumenEsfera(r, pi){
+    console.log("El volumen de una esfera es:" + (4/3) * ((pi)*(r*r*r)))
+}
+ 
 //  * CONSIDERACIONES: poner en practica las mejores practicas para declarar funciones
 //  * Los ejercicios se entregan tanto en funciones con nombre como funciones flecha
  
 
 
+
+////////////////////////////////////////////////////////////////////
+
+
+/** Ejercicio 10
+ * 
+ * Realizar un programa que calcule un descuento del 10% a un producto si se ingresa el codigo
+ * de descuento correcto
+ * 
+ * Debe recibir como parametros el precio del producto
+ * y el codigo de descuento
+ * 
+ * Sugerencia de codigo de descuento DESCUENTO10
+ * 
+ * Consideracion: utilizar la estructura if-else
+ * 
+ */
 
