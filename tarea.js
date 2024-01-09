@@ -7,7 +7,6 @@
 //  -boolean
 
 
-
 let numeroEdad = 33;
 var anioDeNacimiento = 1990;
 var numeroDeSobrinos = 4;
@@ -63,32 +62,32 @@ let divisionTarea = numero3 / numero1
 //      -5 mensajes diferentes en pantalla, sin limite de palabras.
  
 
-let saborDulce = "azucar"
-let aromaRico = "flores"
-let contenidoArcoiris = "muchos colores"
-console.log("La formula de las chicassuperpoderosas es:" + " " + saborDulce + " " + aromaRico + " " + "y" + " " + contenidoArcoiris);
+// let saborDulce = "azucar"
+// let aromaRico = "flores"
+// let contenidoArcoiris = "muchos colores"
+// console.log("La formula de las chicassuperpoderosas es:" + " " + saborDulce + " " + aromaRico + " " + "y" + " " + contenidoArcoiris);
 
 
-let estadoDeAnimo = "Feliz"
-let celebracionAnual = "navidad"
-let pensamiento = "prospero"
-let  celebracionAnual2 = "año nuevo"
-console.log( estadoDeAnimo + " " + celebracionAnual+ " " + "y un" + " " + pensamiento + " " + celebracionAnual2);
+// let estadoDeAnimo = "Feliz"
+// let celebracionAnual = "navidad"
+// let pensamiento = "prospero"
+// let  celebracionAnual2 = "año nuevo"
+// console.log( estadoDeAnimo + " " + celebracionAnual+ " " + "y un" + " " + pensamiento + " " + celebracionAnual2);
 
 
-let usuario = "Maria";
-let segundoNombre = "Fernanda";
-let apellidoUsuario = "Guemez";
-let apellidoMama = "Medina";
-console.log( usuario + " " + segundoNombre + " " + apellidoUsuario + " " + apellidoMama);
+// let usuario = "Maria";
+// let segundoNombre = "Fernanda";
+// let apellidoUsuario = "Guemez";
+// let apellidoMama = "Medina";
+// console.log( usuario + " " + segundoNombre + " " + apellidoUsuario + " " + apellidoMama);
 
-console.log( "Mi comida favorita es:" + " " + comidaFavorita + " " + "y mi cantante favorito es:" + " " + musicoMasEscuchado);
-console.log( "Mi mama se llama" + " " + nombreMama + " " + "y mi mejor amiga se llama" + " " + nombreAmigaFavorita);
+// console.log( "Mi comida favorita es:" + " " + comidaFavorita + " " + "y mi cantante favorito es:" + " " + musicoMasEscuchado);
+
+// console.log( "Mi mama se llama" + " " + nombreMama + " " + "y mi mejor amiga se llama" + " " + nombreAmigaFavorita);
 
 // * Declarar 5 variables y convertirlas a otro tipo de dato
 
 let anioString = String (anioDeNacimiento); // de numero a string
-
 
 let fechaNacimiento = "100990";   // de string a numero
 let fechaNumber = Number (fechaNacimiento);
@@ -100,13 +99,46 @@ let edadMascotaString = String (edadMascota);
 
 let numFavorito = "7";
 let numFavNumber = Number (numFavorito)
-
-
- 
 // *  CONSIDERACIONES: poner en practica las mejores practicas para declaracion de variables.
 // * Imprimir los resultados en pantalla con un console.log()
 
 
+
+
+//////////////////////////////////////////////////////////////////////////
+//FUNCIONES
+
+// Ejercicios 
+ 
+// Declara una funcion para cada problema planteado
+ 
+//  * calcular el perimetro de un circulo
+
+function perimetroCirculo(pi, d){
+    console.log("El perimetro de un circulo es:" + pi * d)
+} 
+
+//  * calcular el area de un rectangulo
+function areaRectangulo(b, a){
+    console.log("El area de un rectangulo es: " + b * a)
+}
+
+//  * calcular el cuadrado de un numero
+ function cuadradoNumero(x){
+    console.log("El cuadrado del numero " + x + " es:" + (x * x))
+ }
+
+//  * calcular la conversion de grados celsius a farenheit
+function celsiusAFarenheit(c){
+    console.log(c + "°C" + " a Fahrenheit es: " + ((c * 9/5) + 32) + " °F" )
+}
+
+//  * calcular el valor del voltaje dadas la resistencia y la corriente
+//  * calcular el volumen de una esfera
+//  * 
+//  * CONSIDERACIONES: poner en practica las mejores practicas para declarar funciones
+//  * Los ejercicios se entregan tanto en funciones con nombre como funciones flecha
+ 
 
 
 
