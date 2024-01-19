@@ -20,7 +20,7 @@ function numeroAleatorio(num) {
 }
 numeroAleatorio(100);
 
-// atajo funcion flecha caf
+// atajo  en VSC de la funcion flecha es: caf
 //el nombre de la funcion no se puede repetir, pero lo que está dentro de la funcion como son variables, parametros, siempre y cuando estén dentro del scoop o dentro de la funcion porque solo vive ahi.
 
 const numeroAleatorio2 = (num) => {

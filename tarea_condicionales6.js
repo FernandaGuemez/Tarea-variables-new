@@ -46,18 +46,17 @@ function calculadora(operacion, n1, n2) {
   }
 }
 
-calculadora("resta", 2, 25);
+calculadora("resta", 20, 5);
+
 // default se agrega al final cuando el usuario ingresa un case que no está en la lista de casos, hace que arroje un mensaje. siempre va a estar incluido al final
 
 //PRACTICANDO
 
 //Vamos a crear una función simple que concatene dos nombres y devuelva un saludo:
-/*
+
 function nombres(nombre1, nombre2) {
   return `Hola, ${nombre1} y ${nombre2}`;
 }
 
 const saludofinal = nombres("fer", "gio");
-
 console.log(saludofinal);
-*/
