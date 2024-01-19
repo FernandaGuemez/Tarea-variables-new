@@ -24,7 +24,7 @@ console.log(respuesta);
 const resultadoFlecha = (calif1, calif2, calif3, calif4) => {
   let resultadoPromedio = (calif1 + calif2 + calif3 + calif4) / 4;
 
-  respuesta = resultadoPromedio >= 7 ? `Aprobaado` : `Reprobado`;
+  respuesta = resultadoPromedio >= 7 ? `Aprobado` : `Reprobado`;
   console.log(respuesta);
 };
 

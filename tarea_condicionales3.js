@@ -20,6 +20,7 @@ for (let i = 7; i <= numero; i++) {
   }
 }
 if (contadorPrimos === 2) {
+  // los numeros primos tendrán 2 numeros que su reisduo da 0, si tiene mas de 3 numeros que su residuo da 0 no es primo
   console.log(numero + " si es # primo");
 } else console.log(numero + " no es # primo");
 
